@@ -1,0 +1,26 @@
+{
+  "name": "css3_practice",
+  "version": "1.0.0",
+  "description": "CSS3 Practice set as per standard",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "tailwind build tailwind/src/style.css -o tailwind/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/riaconsultant/CSS3_Practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/riaconsultant/CSS3_Practice/issues"
+  },
+  "homepage": "https://github.com/riaconsultant/CSS3_Practice#readme",
+  "dependencies": {
+    "tailwindcss": "^2.2.19"
+  }
+}
